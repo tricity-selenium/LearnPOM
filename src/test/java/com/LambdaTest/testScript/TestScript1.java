@@ -14,7 +14,7 @@ public class TestScript1 extends  BaseClass {
 	
 	@DataProvider(name = "formData")
     public Object[][] getFormData() throws IOException {
-        //Check comments Create instance of ExcelReader and provide the Excel file path
+        //Create instance of ExcelReader and provide the Excel file path
 		ReadExcelFile excel = new ReadExcelFile();
         excel.setSheetByName("Sheet1"); // Set the sheet name where your data is stored
        
